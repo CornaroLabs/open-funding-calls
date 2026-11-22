@@ -1,0 +1,56 @@
+{
+  "specVersion": "0.1.0",
+  "id": "web3grants.co:nlnet-restack-2",
+  "title": "NLnet Restack Fund, second call",
+  "description": "Small to medium R&D grants for operational internet commons across the open internet stack.",
+  "funder": {
+    "name": "Stichting NLnet",
+    "url": "https://nlnet.nl"
+  },
+  "programme": {
+    "name": "Open Internet Stack (Horizon Europe)"
+  },
+  "status": "open",
+  "fundingType": [
+    "grant"
+  ],
+  "topics": [
+    "open source",
+    "internet infrastructure",
+    "standards"
+  ],
+  "amount": {
+    "currency": "EUR",
+    "minPerProject": 5000,
+    "maxPerProject": 50000
+  },
+  "dates": {
+    "opens": "2026-11-03T00:00:00+01:00",
+    "deadlines": [
+      {
+        "dateTime": "2027-01-03T12:00:00+01:00",
+        "label": "Call 2 cut-off"
+      }
+    ]
+  },
+  "eligibility": {
+    "applicantTypes": [
+      "any"
+    ],
+    "countries": [
+      "HE-ASSOCIATED"
+    ],
+    "openSourceRequired": true,
+    "text": "Results must be released under a recognised free or open source licence. Applicants need a European dimension."
+  },
+  "application": {
+    "url": "https://nlnet.nl/propose"
+  },
+  "sourceUrl": "https://nlnet.nl/restack/",
+  "provenance": {
+    "publisher": "web3grants.co",
+    "retrieved": "2026-11-22T11:00:00Z",
+    "lastVerified": "2026-11-22T11:00:00Z",
+    "license": "CC-BY-4.0"
+  }
+}

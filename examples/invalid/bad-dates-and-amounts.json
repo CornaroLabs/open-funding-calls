@@ -1,0 +1,11 @@
+{
+  "specVersion": "0.1.0",
+  "id": "example:broken",
+  "title": "A call with logical errors",
+  "funder": { "name": "Example Foundation" },
+  "status": "open",
+  "amount": { "currency": "EUR", "minPerProject": 60000, "maxPerProject": 50000 },
+  "dates": { "opens": "2026-12-01T00:00:00Z", "deadlines": [{ "dateTime": "2026-11-01T00:00:00Z" }] },
+  "sourceUrl": "https://example.org/call",
+  "provenance": { "publisher": "example", "lastVerified": "2025-01-01T00:00:00Z" }
+}

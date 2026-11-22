@@ -1,0 +1,8 @@
+{
+  "specVersion": "0.1.0",
+  "id": "no-prefix",
+  "title": "",
+  "status": "ongoing",
+  "amount": { "currency": "euro" },
+  "sourceUrl": "https://example.org"
+}

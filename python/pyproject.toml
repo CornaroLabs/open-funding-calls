@@ -1,0 +1,14 @@
+[project]
+name = "open-funding-calls"
+version = "0.1.0"
+description = "Validator for the Open Funding Calls data standard"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+dependencies = ["jsonschema>=4.18", "rfc3339-validator"]
+
+[project.scripts]
+ofc-validate = "open_funding_calls.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

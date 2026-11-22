@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://github.com/CornaroLabs/open-funding-calls/vocab#",
+    "schema": "https://schema.org/",
+    "title": "schema:name",
+    "description": "schema:description",
+    "funder": "schema:funder",
+    "name": "schema:name",
+    "url": { "@id": "schema:url", "@type": "@id" },
+    "sourceUrl": { "@id": "schema:mainEntityOfPage", "@type": "@id" },
+    "currency": "schema:currency",
+    "minPerProject": "schema:minValue",
+    "maxPerProject": "schema:maxValue",
+    "topics": "schema:keywords",
+    "lastVerified": { "@id": "schema:dateModified", "@type": "schema:DateTime" },
+    "license": "schema:license"
+  }
+}
